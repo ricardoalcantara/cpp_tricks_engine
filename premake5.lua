@@ -1,6 +1,11 @@
 workspace "TricksEngine"
     architecture "x64"
     configurations { "Debug", "Release" }
+    startproject "TemplateProject"
+    configuration "Debug"
+        buildoptions "/MDd"
+    configuration "Release"
+        buildoptions "/MD"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 

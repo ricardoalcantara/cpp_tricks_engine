@@ -23,6 +23,17 @@
                     "ignoreFailures": true,
                 }
             ]
-        }
+        },
+        {
+            "name": "Windows (debug) Launch TemplateProject",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/TemplateProject/bin/Debug-windows-x86_64/TemplateProject/TemplateProject.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/TemplateProject",
+            "environment": [],
+            "externalConsole": false
+        },
     ]
 }

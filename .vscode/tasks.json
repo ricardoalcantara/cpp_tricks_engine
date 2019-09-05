@@ -16,6 +16,18 @@
             "label": "Linux Generate",
             "type": "shell",
             "command": "vendor/linux/premake5 gmake2"
+        },
+        {
+            "label": "Windows Generate vs2017",
+            "type": "process",
+            "command": "vendor/windows/premake5.exe",
+            "args": ["vs2017"]
+        },
+        {
+            "label": "Windows Generate vs2019",
+            "type": "process",
+            "command": "vendor/windows/premake5.exe",
+            "args": ["vs2019"]
         }
     ]
 }
